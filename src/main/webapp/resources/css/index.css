@@ -1,0 +1,256 @@
+@charset "UTF-8";
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:visited { color:black; }
+
+a:hover {
+  color: black;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#wrap {
+    min-width: 1190px;
+  }
+  header {
+    width: 1130px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #cbf7ec;
+  }
+
+  #logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 75px;
+    height: 75px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: cover;
+    color: #2687f6;
+    font-weight: bold;
+  }
+  nav {
+    float: right;
+    overflow: hidden;
+    width: 800px;
+  }
+  .ul1 {
+    width: 600px;
+    margin-top: 20px;
+    position: absolute;
+
+    float: left;
+  }
+  .ul1 > li {
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .ColorText1 {
+    color: #2687f6;
+  }
+  .ul1 > li {
+    float: left;
+    font-weight: bold;
+  }
+  .ul2 {
+    position: relative;
+    top: 10px;
+    left: 820px;
+  }
+  .ul2 > li {
+   float: left;
+    margin-left: 5px;
+  }
+  #logotext {
+    width: 200px;
+    display: inline-block;
+    color: #2687f6;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    top: 35px;
+  }
+ 
+  #popupmenu {
+    height: 50px;
+    border-top: 1px solid #3d3d3d;
+    border-bottom: 1px solid #3d3d3d;
+  }
+  #section1 {
+    background: url(../img/mol1.jpg) no-repeat center;
+    height: 240px;
+  }
+  main {
+    width: 1130px;
+    margin: 0 auto;
+  }
+  .box1 {
+    position: relative;
+    left: 50px;
+    top: 70px;
+    width: 350px;
+    height: 140px;
+    background: rgb(255, 255, 255,0.5);
+    padding: 10px;
+  }
+  .box1 > span {
+    font-size:  28px;
+    font-weight: bold;
+    color: black;
+  }
+  .inbox1 {
+    position: relative;
+    top: 20px;
+    left: 170px;
+    width: 150px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 35px;
+    background-color: #2C3035;
+  }
+  .inbox1 > a {
+    color: white;
+  }
+
+h2 {
+  font-size: 1.7em;
+  text-align: center;
+}
+.img-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.img-wrap > ul > li> img {
+  width: 350px;
+  height: 250px;
+}
+.img-wrap > ul >li > span {
+  font-weight: bold;
+  font-size: 24px;
+}
+.box3 {
+  background: url(../img/여행인증.jpg) no-repeat center/cover ;
+  height: 300px;
+  margin-top: 40px;
+}
+.box4 {
+  display: flex;
+  margin-top: 40px;
+}
+.flex1 {
+  flex-basis: 75%;
+}
+.flex1 > div > h2 {
+  text-align: left;
+}
+.flex2 {
+  flex-basis: 25%;
+  background-color: #C2E4DC;
+  padding: 25px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+.flex2 > span > a {
+  float: right;
+}
+.round {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 70%;
+  background: url(../img/jejuR.jpg) center;
+  float: left;
+}
+.spandiv {
+  width: 550px;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: 20px;
+  float: left;
+}
+#jejuDiv{
+  height: 290px;
+}
+
+div > span {
+  font-size: 1.5em;
+}
+.line {
+  border-bottom: 4px solid #C4C4C4;
+}
+.date {
+  position: relative;
+  top: 10px;
+  left: 500px;
+  font-size: 20px;
+}
+footer {
+  background: #C2E4DC;
+  margin: 0 auto;
+  width: 1130px;
+  display: flex;
+  justify-content: space-between;
+}
+#flexbox1 {
+  display: flex;
+  align-items: center;
+  
+}
+#flexbox1 >img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+}
+#flexbox2 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+#flexbox2 > ul {
+  margin-left: 15px;
+}
+.bold {
+  font-weight: bold;
+}
+.longbox {
+  width: 1130px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #3D3D3D;
+}
+.longbox > ul > li  {
+  font-size: 21px;
+  display: none;
+}
+.longbox > ul > li:first-child {
+  display: block;
+  margin-left: 160px;
+}
+.longbox > ul > li:nth-child(2) {
+  margin-left: 300px;
+}
+.longbox > ul > li:nth-child(3) {
+  margin-left: 525px;
+}
+.longbox > ul > li:last-child {
+  margin-left: 630px;
+}
+.longbox > ul > li > span {
+  color: white;
+  padding-left: 50px;
+}
+.on {
+  background: url(../img/dot.jpg) no-repeat 50% 100%;
+  background-size: 20px;
+}
+
+
+
+
+
