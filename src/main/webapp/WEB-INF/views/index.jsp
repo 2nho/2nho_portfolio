@@ -17,9 +17,9 @@
 			<nav>
 				<ul class="ul1">
 					<li class="on"><a href="국내여행"></a></li>
-					<li>해외여행</li>
-					<li>호텔</li>
-					<li>고객후기</li>
+					<li><a href="">해외여행</a></li>
+					<li><a href="">호텔</a></li>
+					<li><a href="">고객후기</a></li>
 				</ul>
 			</nav>
 			<ul class="ul2">
