@@ -14,7 +14,7 @@
 
 	<div class="inner_login">
 		<div class="login">
-			<form method="post" id="authForm" action="#">
+			<form method="post" id="authForm" action="${pageContext.request.contextPath }/index">
 				<fieldset>
 					<div class="box_login">
 						<div class="inp_text">
@@ -28,7 +28,6 @@
 					<button type="submit" class="btn_login">로그인</button>
 					<div class="login_append">
 						<div class="inp_chk">
-							<!-- 체크시 checked 추가 -->
 							<input type="checkbox" id="keepLogin" class="inp_radio"
 								name="keepLogin"> <label for="keepLogin" class="lab_g">
 								<span class="txt_lab">로그인 상태 유지</span>
@@ -43,3 +42,4 @@
 		</div>
 	</div>
 </body>
+</html>
