@@ -17,12 +17,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import kr.co.goodee39.service.MemberService;
 import kr.co.goodee39.vo.MemberVO;
 
 @Controller
 @RequestMapping("/member")
 public class MemberController {
-	
+	@Autowired
+	MemberService memberService;
 	
 
 	@GetMapping("/loginPage")

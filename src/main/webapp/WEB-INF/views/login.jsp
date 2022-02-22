@@ -14,7 +14,7 @@
 
 	<div class="inner_login">
 		<div class="login">
-			<form method="post" id="authForm" action="${pageContext.request.contextPath }/index">
+			<form method="post" id="authForm" action="${pageContext.request.contextPath}/index">
 				<fieldset>
 					<div class="box_login">
 						<div class="inp_text">
