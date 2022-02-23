@@ -100,29 +100,7 @@
 								<br />
 								<div class="valid">전화번호를 입력하세요.</div>
 							</div>
-
-							<div>
-								반려동물 보유여부
-								<form:radiobutton path="petOwn" value="Y" class="chkra" />
-								보유
-								<form:radiobutton path="petOwn" value="N" class="chkra" />
-								미보유<br />
-								<div class="invalid">보유여부를 선택하세요.</div>
-							</div>
-
-							<div>
-								선호크기
-								<form:radiobutton path="size" value="b" class="chkra" />
-								대형
-								<form:radiobutton path="size" value="m" class="chkra" />
-								중형
-								<form:radiobutton path="size" value="s" class="chkra" />
-								소형
-								<form:radiobutton path="size" value="e" class="chkra" />
-								모두<br />
-								<div class="invalid">선호크기를를 선택하세요.</div>
-							</div>
-
+				
 							<form:button id="signupBtn">
 								<svg width="60px" height="25px" viewBox="0 0 180 60"
 									class="border">
