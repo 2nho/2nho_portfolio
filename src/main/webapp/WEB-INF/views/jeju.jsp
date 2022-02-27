@@ -36,7 +36,14 @@
 			</div>
 		</div>
 		<main>
-		
+		<section>
+		<div>
+		</div>
+		<div>
+		</div>
+		</section>
+		<section>
+		</section>
 		</main>
 		<footer>
 			<!-- footer 좌측 -->
