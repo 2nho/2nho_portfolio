@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>index</title>
 </head>
 <link href="css/defalut.css" rel="stylesheet" />
 <link href="css/index.css" rel="stylesheet" />
