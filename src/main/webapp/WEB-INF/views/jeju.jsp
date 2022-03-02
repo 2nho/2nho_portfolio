@@ -37,7 +37,12 @@
 		</div>
 		<main>
 		<section>
+		<h1>#제주도</h1>
+		<br />
+		<h3>■ 떠나요 둘이서 모든걸 훌훌버리고~ 제두도 앞바다를 즐겨요</h3>
 		<div>
+		<div class = "bg1"></div>
+		<div class = "bg2"></div>
 		</div>
 		<div>
 		</div>
