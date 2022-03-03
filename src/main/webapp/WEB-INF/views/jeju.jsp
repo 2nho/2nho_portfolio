@@ -45,6 +45,8 @@
 		<div class = "bg2"></div>
 		</div>
 		<div>
+		<div class ="bg3"></div>
+		<span>안내</span>
 		</div>
 		</section>
 		<section>
