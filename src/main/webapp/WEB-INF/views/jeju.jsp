@@ -50,7 +50,9 @@
 		</div>
 		</section>
 		<section>
-		<div></div>
+		<div>
+		<div class="bg4"></div>
+		</div>
 		</section>
 		</main>
 		<footer>
