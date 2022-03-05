@@ -5,14 +5,7 @@ public class ReservationVO {
 	private int rnum;
 	private int mnum;
 	private int bdiv;
-	private String reserName;
 	private String content;
-	private String reserDate;
-	private String kindCd;
-	private String sexCd;
-	private String age;
-	private String processState;
-	private String noticeSdt;
 	private String del;
 	
 	private int start;
