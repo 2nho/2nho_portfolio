@@ -11,15 +11,8 @@ public class ReservationVO {
 	private String kindCd;
 	private String sexCd;
 	private String age;
-	private String specialMark;
 	private String processState;
 	private String noticeSdt;
-	private String happenPlace;
-	private String dogImg;
-	private String careNm;
-	private String careAddr;
-	private String careTel;
-	private String chargeNm; 
 	private String del;
 	
 	private int start;
