@@ -13,10 +13,10 @@
 			<div id="logotext">모두의 여행</div>
 			<nav>
 				<ul class="ul1">
-					<li class="on"><a href="국내여행"></a></li>
-					<li><a href="">해외여행</a></li>
-					<li><a href="">호텔</a></li>
-					<li><a href="">고객후기</a></li>
+					<li class="on"><a href="local"></a>국내여행</li>
+					<li><a href="abroad">해외여행</a></li>
+					<li><a href="hotel">호텔</a></li>
+					<li><a href="review">고객후기</a></li>
 				</ul>
 			</nav>
 			<ul class="ul2">
