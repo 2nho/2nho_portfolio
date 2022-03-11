@@ -36,7 +36,8 @@
 			</div>
 		</div>
 		<main>
-		
+		<h1></h1>
+		<div></div>
 		</main>
 		<footer>
 			<!-- footer 좌측 -->
