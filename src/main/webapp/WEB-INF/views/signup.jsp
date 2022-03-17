@@ -102,9 +102,8 @@
 							</div>
 				
 							<form:button id="signupBtn">
-								<svg width="60px" height="25px" viewBox="0 0 180 60"
+								<svg width="70px" height="25px" viewBox="0 0 180 60"
 									class="border">
-						           
 						         </svg>
 								<span>가입하기</span>
 							</form:button>
