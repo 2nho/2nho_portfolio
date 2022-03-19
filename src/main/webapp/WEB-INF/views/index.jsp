@@ -96,7 +96,7 @@
 					<h2>여러분의 다양한 경험을 저희에게 공유해주세요</h2>
 					<span>이달의 '베스트 리뷰'당첨된 분께는 호텔 숙박권을 제공</span><br />
 					<br />
-					<br /> <span><a href="" class="bold">글쓰러가기</a></span>
+					<br /> <span><a href="${pageContext.request.contextPath}/createReview" class="bold">글쓰러가기</a></span>
 				</article>
 			</section>
 		</main>
