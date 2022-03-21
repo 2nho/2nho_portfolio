@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>리뷰게시판</title>
+<title>리뷰작성</title>
 </head>
 <body>
 <div id="wrap">
@@ -36,6 +36,10 @@
 			</div>
 		</div>
 		<main>
+		<h1>고객후기 작성</h1>
+		<h5>베스트 리뷰로 당첨되신 분에게는 호텔 1일 숙박권을 제공해드립니다.</h5>
+		<div></div>
+		<button>등록</button><button>취소</button>
 		</main>
 		<footer>
 			<!-- footer 좌측 -->
