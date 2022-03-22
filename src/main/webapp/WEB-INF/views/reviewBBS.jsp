@@ -36,11 +36,50 @@
 			</div>
 		</div>
 		<main>
+		<table>
+							<thead>
+								<tr>
+									<th><input type="checkbox" class="checkboxAll" /></th>
+									<th>번호</th>
+									<th>이름</th>
+									<th>아이디</th>
+									<th>비밀번호</th>
+									<th>이메일</th>
+									<th>구분</th>
+								</tr>
+							</thead>
+							<tbody>
+								<c:forEach var="item" items="${list}">
+									<tr>
+										<td><input type="checkbox" class="checkbox" /></td>
+										<td name="mnum">${item.mnum}</td>
+										<td>${item.name}</td>
+										<td>${item.id}</td>
+										<td>${item.pw}</td>
+										<td>${item.email}</td>
+										<td><select name="choiceLevel" id="choiceLevel">
+												<option value="${item.level}" id="mainLevel">${item.level}</option>
+												<c:set var="level" value="${item.level}" scope="page" />
+												<%-- <c:if test="${level eq 'member'}"><option value="dbp1">admin</option></c:if>
+										<c:if test="${level eq 'admin'}"><option value="dbp1">member</option></c:if>   위의 방법과 주석처리된 두가지 방법이 가능하다--%> 
+												<c:choose>
+													<c:when test="${level eq 'U'}">
+														<option value="A">A</option>
+													</c:when>
+													<c:otherwise>
+														<option value="U">U</option>
+													</c:otherwise>
+												</c:choose>
+										</select></td>
+									</tr>
+								</c:forEach>
+							</tbody>
+						</table>
 		</main>
 		<footer>
 			<!-- footer 좌측 -->
 			<div id="flexbox1">
-				<img src="img/logo2.png" alt="" />
+				<img src="img/logo2.png" alt="로고" />
 				<div>
 					<ul>
 						<li>고객센터 | 1588-0000 | 서울시 강남구 테헤란로 0길</li>
