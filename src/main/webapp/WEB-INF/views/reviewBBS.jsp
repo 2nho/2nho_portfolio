@@ -52,11 +52,8 @@
 								<c:forEach var="item" items="${list}">
 									<tr>
 										<td><input type="checkbox" class="checkbox" /></td>
-										<td name="mnum">${item.mnum}</td>
+										<td >${}</td>
 										<td>${item.name}</td>
-										<td>${item.id}</td>
-										<td>${item.pw}</td>
-										<td>${item.email}</td>
 										<td><select name="choiceLevel" id="choiceLevel">
 												<option value="${item.level}" id="mainLevel">${item.level}</option>
 												<c:set var="level" value="${item.level}" scope="page" />
