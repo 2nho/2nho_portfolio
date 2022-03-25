@@ -56,9 +56,7 @@
 										<td></td>
 										<td><select name="choiceLevel" id="choiceLevel">
 												<option value="${item.level}" id="mainLevel">${item.level}</option>
-												<c:set var="level" value="${item.level}" scope="page" />
-												<%-- <c:if test="${level eq 'member'}"><option value="dbp1">admin</option></c:if>
-										<c:if test="${level eq 'admin'}"><option value="dbp1">member</option></c:if>   위의 방법과 주석처리된 두가지 방법이 가능하다--%> 
+												<c:set var="level" value="${item.level}" scope="page" />									
 												<c:choose>
 													<c:when test="${level eq 'U'}">
 														<option value="A">A</option>
