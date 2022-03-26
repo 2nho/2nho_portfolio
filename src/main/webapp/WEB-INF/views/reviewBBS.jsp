@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,7 @@
 <title>리뷰게시판</title>
 </head>
 <body>
-<div id="wrap">
+	<div id="wrap">
 		<header>
 			<div id="logo"></div>
 			<div id="logotext">모두의 여행</div>
@@ -36,40 +36,40 @@
 			</div>
 		</div>
 		<main>
-		<table>
-							<thead>
-								<tr>
-									<th><input type="checkbox" class="checkboxAll" /></th>
-									<th>번호</th>
-									<th>이름</th>
-									<th>아이디</th>
-									<th>비밀번호</th>
-									<th>이메일</th>
-									<th>구분</th>
-								</tr>
-							</thead>
-							<tbody>
-								<c:forEach var="item" items="${list}">
-									<tr>
-										<td><input type="checkbox" class="checkbox" /></td>
-										<td></td>
-										<td></td>
-										<td><select name="choiceLevel" id="choiceLevel">
-												<option value="${item.level}" id="mainLevel">${item.level}</option>
-												<c:set var="level" value="${item.level}" scope="page" />									
-												<c:choose>
-													<c:when test="${level eq 'U'}">
-														<option value="A">A</option>
-													</c:when>
-													<c:otherwise>
-														<option value="U">U</option>
-													</c:otherwise>
-												</c:choose>
-										</select></td>
-									</tr>
-								</c:forEach>
-							</tbody>
-						</table>
+			<table>
+				<thead>
+					<tr>
+						<th><input type="checkbox" class="checkboxAll" /></th>
+						<th>번호</th>
+						<th>이름</th>
+						<th>아이디</th>
+						<th>비밀번호</th>
+						<th>이메일</th>
+						<th>구분</th>
+					</tr>
+				</thead>
+				<tbody>
+					<c:forEach var="item" items="${list}">
+						<tr>
+							<td><input type="checkbox" class="checkbox" /></td>
+							<td></td>
+							<td></td>
+							<td><select name="choiceLevel" id="choiceLevel">
+									<option value="${item.level}" id="mainLevel">${item.level}</option>
+									<c:set var="level" value="${item.level}" scope="page" />
+									<c:choose>
+										<c:when test="${level eq 'U'}">
+											<option value="A">A</option>
+										</c:when>
+										<c:otherwise>
+											<option value="U">U</option>
+										</c:otherwise>
+									</c:choose>
+							</select></td>
+						</tr>
+					</c:forEach>
+				</tbody>
+			</table>
 		</main>
 		<footer>
 			<!-- footer 좌측 -->
