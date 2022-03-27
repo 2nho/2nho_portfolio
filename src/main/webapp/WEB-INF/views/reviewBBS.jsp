@@ -56,7 +56,7 @@
 							<td></td>
 							<td><select name="choiceLevel" id="choiceLevel">
 									<option value="${item.level}" id="mainLevel">${item.level}</option>
-									<c:set var="level" value="${item.level}" scope="page" />
+									<c:set var="level" value="${}" scope="page" />
 									<c:choose>
 										<c:when test="${level eq 'U'}">
 											<option value="A">A</option>
