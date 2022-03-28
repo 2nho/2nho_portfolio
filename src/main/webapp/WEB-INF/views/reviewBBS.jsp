@@ -49,7 +49,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<c:forEach var="item" items="${list}">
+					<c:forEach var="item" items="$}">
 						<tr>
 							<td><input type="checkbox" class="checkbox" /></td>
 							<td></td>
@@ -58,7 +58,7 @@
 									<option value="${item.level}" id="mainLevel">${item.level}</option>
 									<c:set var="level" value="${}" scope="page" />
 									<c:choose>
-										<c:when test="${level eq 'U'}">
+										<c:when test="${a eq b}">
 											<option value="A">A</option>
 										</c:when>
 										<c:otherwise>
