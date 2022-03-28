@@ -55,14 +55,14 @@
 							<td></td>
 							<td></td>
 							<td><select name="choiceLevel" id="choiceLevel">
-									<option value="${item.level}" id="mainLevel">${item.level}</option>
-									<c:set var="level" value="${}" scope="page" />
+									<option value="" id="mainLevel"></option>
+									<c:set var="level" value="" scope="page" />
 									<c:choose>
 										<c:when test="${a eq b}">
-											<option value="A">A</option>
+											<option></option>
 										</c:when>
 										<c:otherwise>
-											<option value="U">U</option>
+											<option></option>
 										</c:otherwise>
 									</c:choose>
 							</select></td>
