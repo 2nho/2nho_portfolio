@@ -38,8 +38,9 @@
 		<main>
 		<h1>고객후기 작성</h1>
 		<h5>베스트 리뷰로 당첨되신 분에게는 호텔 1일 숙박권을 제공해드립니다.</h5>
+		<!-- 텍스트 에디터 추가  -->
 		<div></div>
-		<button>등록</button><button>취소</button>
+		<button>취소</button><button>등록</button>
 		</main>
 		<footer>
 			<!-- footer 좌측 -->
