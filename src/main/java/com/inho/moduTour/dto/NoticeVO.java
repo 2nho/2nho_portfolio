@@ -1,4 +1,4 @@
-package kr.co.goodee39.vo;
+package com.inho.moduTour.dto;
 
 public class NoticeVO {
 	private int num;

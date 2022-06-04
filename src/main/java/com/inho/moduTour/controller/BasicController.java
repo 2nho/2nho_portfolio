@@ -1,9 +1,9 @@
-package kr.co.goodee39.controller;
+package com.inho.moduTour.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import kr.co.goodee39.vo.MemberVO;
+import com.inho.moduTour.dto.MemberVO;
 
 @Controller
 public class BasicController {
