@@ -1,6 +1,6 @@
-package com.inho.moduTour.dto;
+package com.inho.modutour.dto;
 
-public class ReservationVO {
+public class ReservationDTO {
 	
 	private int rnum;
 	private int mnum;
@@ -11,7 +11,7 @@ public class ReservationVO {
 	private int start;
 	private int count;
 	
-	public ReservationVO() {
+	public ReservationDTO() {
 		this.start = 0;
 		this.count = 10;
 	}

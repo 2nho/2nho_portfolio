@@ -1,6 +1,6 @@
-package com.inho.moduTour.dto;
+package com.inho.modutour.dto;
 
-public class ImageVO {
+public class ImageDTO {
 
 	private int num;
 	private int bdiv;
@@ -8,13 +8,13 @@ public class ImageVO {
 	private String serverName;
 	private String localName;
 	
-	public ImageVO() {
+	public ImageDTO() {
 		// TODO Auto-generated constructor stub
 	}
 	
 	
 
-	public ImageVO(String serverName, String localName) {
+	public ImageDTO(String serverName, String localName) {
 		this.serverName = serverName;
 		this.localName = localName;
 	}

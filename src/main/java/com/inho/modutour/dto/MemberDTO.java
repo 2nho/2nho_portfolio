@@ -1,6 +1,6 @@
-package com.inho.moduTour.dto;
+package com.inho.modutour.dto;
 
-public class MemberVO {
+public class MemberDTO {
 	private int mnum;
 	private String id;
 	private String name;
@@ -18,7 +18,7 @@ public class MemberVO {
 	private int start;
 	private int count;
 
-	public MemberVO() {
+	public MemberDTO() {
 		this.start = 0;
 		this.count = 10;
 	}

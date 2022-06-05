@@ -1,6 +1,6 @@
-package com.inho.moduTour.dto;
+package com.inho.modutour.dto;
 
-public class NoticeVO {
+public class NoticeDTO {
 	private int num;
 	private String title;
 	private String content;
@@ -13,7 +13,7 @@ public class NoticeVO {
 	private int start;
 	private int count;
 	
-	public NoticeVO() {
+	public NoticeDTO() {
 		this.start = 0;
 		this.count = 10;
 	}
