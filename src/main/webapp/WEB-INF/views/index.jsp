@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +23,7 @@
 			</nav>
 			<ul class="ul2">
 				<li><a href="login">로그인</a></li>
-				<li><a href="signup">회원가입</a></li>
+				<li><a href="signUp">회원가입</a></li>
 				<li>고객센터</li>
 			</ul>
 		</header>

@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
@@ -18,9 +17,10 @@
 							<h3>로그인/회원가입</h3>
 						</div>
 						<div class="mypageSubTitle">
-							<a href="loginPage"><h4>로그인</h4></a> <a href="signupAuthMove"
-								id="focus"><h4>회원가입</h4></a> <a href="findId"><h4>아이디
-									찾기</h4></a> <a href="findPw"><h4>비밀번호 찾기</h4></a>
+							<h4><a href="loginPage">로그인</a></h4>
+							<h4><a href="signupAuthMove" id="focus">회원가입</a></h4>
+							<h4><a href="findId">아이디찾기</a> </h4>
+							<h4><a href="findPw">비밀번호 찾기</a></h4>
 						</div>
 						<br />
 						<br />
@@ -72,14 +72,10 @@
 								<form:hidden path="address" />
 								주소 <input type="text" id="postcode" class="chkad" readonly
 									placeholder="우편번호" />
-								<button type="button" id="findPostcode"
-									onclick="execDaumPostcode()">
-									<svg width="60px" height="25px" viewBox="0 0 180 60"
-										class="border">
-							           <polyline points="179,1 179,59 1,59 1,1 179,1"
-											class="bg-line" />
-							           <polyline points="179,1 179,59 1,59 1,1 179,1"
-											class="hl-line" />
+								<button type="button" id="findPostcode">
+									<svg width="60px" height="25px" viewBox="0 0 180 60" class="border">
+							           <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+							           <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
 							         </svg>
 									<span>우편번호 찾기</span>
 								</button>
@@ -102,8 +98,7 @@
 							</div>
 				
 							<form:button id="signupBtn">
-								<svg width="70px" height="25px" viewBox="0 0 180 60"
-									class="border">
+								<svg width="70px" height="25px" viewBox="0 0 180 60" class="border">
 						         </svg>
 								<span>가입하기</span>
 							</form:button>

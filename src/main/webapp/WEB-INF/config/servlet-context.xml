@@ -23,9 +23,9 @@
 	<annotation-driven />
 
 	<!-- 스캔할 bean들이 모여있는 패키지 지정 -->
-	<context:component-scan base-package="kr.co.goodee39.controller" />
+	<context:component-scan base-package="com.inho.modutour.controller" />
 	<!-- MyBatis와 트랜잭션 제어를 위한 service 패키지 지정 -->
-	<context:component-scan base-package="kr.co.goodee39.service" />
+	<context:component-scan base-package="com.inho.modutour.service" />
 
 	<!-- Controller의 메서드에서 반환하는 문자열 앞, 뒤에 붙일 경로 정보 셋팅 -->
 	<beans:bean
